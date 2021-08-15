@@ -25,3 +25,24 @@ total_summary <- suspension_coil_table %>% summarize(Mean=mean(PSI),Median=media
 
 #group by lot summary
 lot_summary <- suspension_coil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI,na.rm=FALSE))
+
+
+#Deliverable 3
+#Null hypotheses : Mean of PSI is not equal to 1500
+#perform t test 
+
+t.test(suspension_coil_table$PSI)
+#Here p value is less than 0.05 hence we have enought evidence
+#to reject our null hypotheses 
+#which means mean is equal to 1500 (here it is 1498.78)
+
+
+#Create tables for each lot having only psi
+first_lot_table <- subset(suspension_coil_table,Manufacturing_Lot == "Lot1")
+# p value is very less than 0.05
+
+second_lot_table <- subset(suspension_coil_table,Manufacturing_Lot == "Lot2")
+#p value is very less than 0.05
+
+Third_lot_table <- subset(suspension_coil_table,Manufacturing_Lot == "Lot3")
+#p value is very less than 0.05

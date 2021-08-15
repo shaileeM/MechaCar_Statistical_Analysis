@@ -26,3 +26,21 @@ Why or why not?
 
 Lot 1 and Lot 2 meets the design specification and variance does not exceed 100 pounds individually.
 In total , all the lots combine meet the design specification as the variance is 62 < 100. 
+
+
+## T test analysis for whole data on PSI value
+Null hypotheses : Mean of PSI is not equal to 1500
+Here p value is less than 0.05 hence we have enough evidence
+to reject our null hypotheses 
+This means mean is equal to 1500 (here nean is 1498.78)
+
+## T test analysis for each lot on PSI value
+Null hypotheses : Mean of PSI is not equal to 1500
+
+Lot 1 : p value(2.2e-16) is very less than 0.05 
+Lot 2 : p value(2.2e-16) is very less than 0.05 
+Lot 3 : p value(2.2e-16) is very less than 0.05 
+
+All the 3 means are almost equal to 1500 and p is < 0.05 hence we have enough evidence to reject our null hypotheses
+
+
