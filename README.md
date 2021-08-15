@@ -44,3 +44,11 @@ Lot 3 : p value(2.2e-16) is very less than 0.05
 All the 3 means are almost equal to 1500 and p is < 0.05 hence we have enough evidence to reject our null hypotheses
 
 
+## Study Design: MechaCar vs Competition
+The metrics of interest for the consumer can be following : 
+1. braking power(Data for breaking power will be in Watts)
+Null hypotheses : The breaking power for mechaCar is more than the competitor cars.
+As the data is numerical, we can use t- test to find the p value which may support or reject our null hypotheses. 
+
+We need list of breaking horse powers for both the type of cars.
+
