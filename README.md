@@ -52,3 +52,14 @@ As the data is numerical, we can use t- test to find the p value which may suppo
 
 We need list of breaking horse powers for both the type of cars.
 
+2. Hatchback cars for MechCar 
+Null hypotheses : The mileage of hatchback cars for MechaCar is higher than the mileage of hatchback cars of competitor company. 
+Here as the data is categorical/non numeric, we will use chi-squared test to prove our hypothesis. 
+
+We need a column for hatchback car with values are True or False. 
+
+3. Time versus tyre pressure
+Null hypotheses : As time/year passes the tyre pressure decreases by half
+Here we will be using linear regression. After we get the p value and the r squared value, we can determine what is the strength of 
+correlation and in what direction(positive/negative).
+We can also determine the probability of how random our data is based on the Pr(>|t|)
